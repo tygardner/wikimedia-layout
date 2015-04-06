@@ -1,0 +1,187 @@
+
+/** {
+	outline:1px solid red;
+}*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+header {
+	background-color: #6699CC;
+	width: 100%;
+	padding: 3% 6% 3% 6%;
+	box-sizing: border-box;
+}
+
+footer{
+	background-color: #6699CC;
+	width: 100%;
+	padding: 1% 4% 5% 3%;
+	box-sizing: border-box;
+	
+}
+
+.bold { 
+	font-weight: bold;
+}
+
+.end {
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+	color: #515151;
+}
+
+p {
+	font-family: Times;
+	font-size: 20px;
+	color: #E0E9EA;
+}
+
+.foot {
+	font-size: 14px;
+	padding-left: 53%;
+}
+
+.bottom {
+	float: right;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+}
+
+.privacy {
+	padding-right: 30px;
+	font-size: 12px;
+}
+
+.term {
+	padding-right: 60px;
+	font-size: 12px;
+}
+}
+
+.end {
+	float:right;
+}
+
+.container {
+	width: 100%;
+	padding: 5%;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap:wrap;	
+}
+
+
+.box {
+	width: 12%;
+	height: 12%;
+	background-size: contain;
+	padding: 5%;
+	min-width: 10%;
+	min-height: 10%;
+}
+
+.wikipedia {
+	background: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wiktionary{
+	background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/135px-Wiktionary-logo-en.svg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wikiquote {
+	background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Wikiquote-logo-en.png/120px-Wikiquote-logo-en.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wikibooks {
+	background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo-en-noslogan.svg/140px-Wikibooks-logo-en-noslogan.svg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wikisource {
+	background: url(http://upload.wikimedia.org/wikipedia/sources/b/bc/Wiki.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wikinews {
+	background: url(http://upload.wikimedia.org/wikinews/en/b/bc/Wiki.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wikiversity {
+	background: url(http://upload.wikimedia.org/wikiversity/en/b/bc/Wiki.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wikispecies {
+	background: url(http://upload.wikimedia.org/wikipedia/species/b/bc/Wiki.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.mediawiki {
+	background: url(http://upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wikidata {
+	background: url(http://upload.wikimedia.org/wikipedia/commons/e/e4/Wikidata-logo-en-135px.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wikimediacommons {
+	background: url(http://upload.wikimedia.org/wikipedia/commons/7/79/Wiki-commons.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.wikivoyage {
+	background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wikivoyage-Logo-v3-en.svg/135px-Wikivoyage-Logo-v3-en.svg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.metawiki {
+	background: url(http://upload.wikimedia.org/wikipedia/meta/b/bc/Wiki.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.incubator {
+	background: url(http://upload.wikimedia.org/wikipedia/incubator/b/bc/Wiki.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.labs {
+	background: url(http://wikitech.wikimedia.org/w/images/c/cf/Labslogo_thumb.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.foundation {
+	background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Wikimedia_Foundation_RGB_logo_with_text.svg/135px-Wikimedia_Foundation_RGB_logo_with_text.svg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
